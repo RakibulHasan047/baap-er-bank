@@ -8,7 +8,7 @@ document.getElementById('btn-submit').addEventListener('click', function(event){
     const password = passwordField.value;
     // Step-4: Verify 
     // !!Danger 
-    if(email === 'sontan@bap.com' && password === '123456'){
+    if(email === 'sontan@baap.com' && password === '123456'){
         window.location.href = 'bank.html';
     }
     else{
